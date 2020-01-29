@@ -1,0 +1,63 @@
+body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: 'Oxygen', serif;
+  margin: 0;
+}
+
+div {
+  display: block;
+}
+
+h1, h2 {
+  font-family: 'Overpass';
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+}
+
+a:hover {
+  background-image: linear-gradient(to bottom, rgba(200, 223, 200, 1), rgba(200, 223, 200, 1));
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+.link-medium {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
